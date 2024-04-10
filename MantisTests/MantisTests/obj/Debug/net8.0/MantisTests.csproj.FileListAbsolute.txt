@@ -1,9 +1,3 @@
-C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\obj\Debug\net8.0\MantisTests.csproj.AssemblyReference.cache
-C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\obj\Debug\net8.0\MantisTests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\obj\Debug\net8.0\MantisTests.AssemblyInfoInputs.cache
-C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\obj\Debug\net8.0\MantisTests.AssemblyInfo.cs
-C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\obj\Debug\net8.0\MantisTests.csproj.CoreCompileInputs.cache
-C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\obj\Debug\net8.0\MantisTests.sourcelink.json
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\testhost.dll
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\testhost.exe
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\selenium-manager\linux\selenium-manager
@@ -15,6 +9,7 @@ C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\b
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\nunit.engine.api.dll
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\nunit.engine.core.dll
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\testcentric.engine.metadata.dll
+C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\config_inc.php
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\MantisTests.deps.json
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\MantisTests.runtimeconfig.json
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\MantisTests.dll
@@ -32,6 +27,7 @@ C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\b
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\nunit.framework.dll
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\WebDriver.Support.dll
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\WebDriver.dll
+C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\System.Net.FtpClient.dll
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -97,6 +93,12 @@ C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\b
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\obj\Debug\net8.0\MantisTests.csproj.AssemblyReference.cache
+C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\obj\Debug\net8.0\MantisTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\obj\Debug\net8.0\MantisTests.AssemblyInfoInputs.cache
+C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\obj\Debug\net8.0\MantisTests.AssemblyInfo.cs
+C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\obj\Debug\net8.0\MantisTests.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\obj\Debug\net8.0\MantisTests.sourcelink.json
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\obj\Debug\net8.0\MantisTests.csproj.CopyComplete
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\obj\Debug\net8.0\MantisTests.dll
 C:\Users\Dmitry\source\repos\GorbachevDmitriyQA\mantis\MantisTests\MantisTests\obj\Debug\net8.0\refint\MantisTests.dll
