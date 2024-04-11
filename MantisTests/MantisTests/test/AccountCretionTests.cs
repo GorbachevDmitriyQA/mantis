@@ -29,19 +29,21 @@ namespace MantisTests
         {
             AccountData account = new AccountData()
             {
-                Name = "qwe",
-                Password = "dsf",
-                Email = "wqe@mail.ru"
+                Name = "superuser",
+                Password = "superuser",
+                Email = "superuser@mail.ru"
             };
 
+            app.James.DeleteAccount(account);
+            app.James.AddAccount(account);
             app.Registration.Register(account);
         }
 
-        [TearDown]
+        //[TearDown]
 
-        public void RestoreConfig()
-        {
-            app.Ftp.RestoreFile("/config_inc.php");
-        }
+        //public void RestoreConfig()
+        //{
+        //    app.Ftp.RestoreFile("/config_inc.php");
+        //}
     }
 }

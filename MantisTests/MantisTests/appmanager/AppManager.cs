@@ -29,6 +29,7 @@ namespace MantisTests
             baseURL = "http://localhost:8080/mantisbt-1.3.20/login_page.php";
             Registration = new RegistrationHelper(this);
             Ftp = new FtpHelper(this);
+            James = new JamesHelper(this);
         }
         public IWebDriver Driver
         {
@@ -37,6 +38,7 @@ namespace MantisTests
 
         public RegistrationHelper Registration { get; set; }
         public FtpHelper Ftp { get;  set; }
+        public JamesHelper James { get; set; }
     }
 
 }
