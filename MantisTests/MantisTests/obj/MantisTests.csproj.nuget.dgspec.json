@@ -40,6 +40,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Negotiate": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.6.0, )"
@@ -56,6 +60,10 @@
               "target": "Package",
               "version": "[4.2.1, )"
             },
+            "OpaqueMail": {
+              "target": "Package",
+              "version": "[1.6.6, )"
+            },
             "Selenium.Support": {
               "target": "Package",
               "version": "[4.19.0, )"
@@ -63,6 +71,10 @@
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
               "version": "[123.0.6312.8600, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "System.Net.FtpClient": {
               "target": "Package",

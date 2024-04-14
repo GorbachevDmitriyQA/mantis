@@ -30,6 +30,7 @@ namespace MantisTests
             Registration = new RegistrationHelper(this);
             Ftp = new FtpHelper(this);
             James = new JamesHelper(this);
+            Mail = new MailHelper(this);
         }
         public IWebDriver Driver
         {
@@ -39,6 +40,7 @@ namespace MantisTests
         public RegistrationHelper Registration { get; set; }
         public FtpHelper Ftp { get;  set; }
         public JamesHelper James { get; set; }
+        public MailHelper Mail { get;  set; }
     }
 
 }
