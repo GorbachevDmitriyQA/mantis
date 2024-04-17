@@ -39,11 +39,25 @@ namespace MantisTests
             app.Registration.Register(account);
         }
 
-        //[TearDown]
+        [Test]
+        public void Login()
+        {
+            AccountData account = new AccountData()
+            {
+                Name = "DmitriyDmitriy",
+                Password = "DmitriyDmitriy",
+                Email = "DmitriyDmitriy@localhost.localdomain"
+            };
 
-        //public void RestoreConfig()
-        //{
-        //    app.Ftp.RestoreFile("/config_inc.php");
-        //}
-    }
+            app.Login.AccountLogin(account);
+
+        }
+
+            //[TearDown]
+
+            //public void RestoreConfig()
+            //{
+            //    app.Ftp.RestoreFile("/config_inc.php");
+            //}
+        }
 }

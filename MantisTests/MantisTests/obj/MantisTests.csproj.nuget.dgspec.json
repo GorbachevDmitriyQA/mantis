@@ -76,6 +76,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "System.Net.FtpClient": {
               "target": "Package",
               "version": "[1.0.5824.34026, )"
@@ -83,6 +87,14 @@
             "coverlet.collector": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "linq2db": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "linq2db.MySql": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             }
           },
           "imports": [

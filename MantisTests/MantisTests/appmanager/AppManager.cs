@@ -31,6 +31,9 @@ namespace MantisTests
             Ftp = new FtpHelper(this);
             James = new JamesHelper(this);
             Mail = new MailHelper(this);
+            Login = new LoginHelper(this);
+            ManageMenuNavigator = new ManagmentMenuHelper(this);
+            ProjectManager = new ProjectManagmentHelper(this);
         }
         public IWebDriver Driver
         {
@@ -41,6 +44,9 @@ namespace MantisTests
         public FtpHelper Ftp { get;  set; }
         public JamesHelper James { get; set; }
         public MailHelper Mail { get;  set; }
+        public LoginHelper Login { get; set; }
+        public ManagmentMenuHelper ManageMenuNavigator { get; set; }
+        public ProjectManagmentHelper ProjectManager { get; set; }
     }
 
 }
