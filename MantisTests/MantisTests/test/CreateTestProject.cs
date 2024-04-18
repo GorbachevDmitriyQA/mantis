@@ -19,7 +19,7 @@ namespace MantisTests
                 Description = "This projcet for C# tests"
             };
 
-            app.Login.AdminLogin();
+            app.Auth.AdminLogin();
             app.ManageMenuNavigator.ProjectMenu();
             List<ProjectData> oldProject = ProjectData.GetAllProject();
             app.ProjectManager.CreateProject(project);

@@ -13,9 +13,9 @@ using NUnit.Framework;
 
 namespace MantisTests
 {
-    public class LoginHelper : HelperBase
+    public class AuthHelper : HelperBase
     {
-        public LoginHelper(AppManager manager): base(manager) { }
+        public AuthHelper(AppManager manager): base(manager) { }
 
         public void AccountLogin(AccountData account)
         {
@@ -44,12 +44,17 @@ namespace MantisTests
 
         public void AdminLogin()
         {
-            if (driver.Url != manager.baseURL)
+            if (driver.Url != manager.baseURL + "/login_page.php")
             {
-                driver.Url = manager.baseURL;
+                manager.Registration.OpenLoginPage();
             }
             FillLoginForm();
             SubmitLogin();
+        }
+
+        public void Logout()
+        {
+            driver.FindElement(By.CssSelector("#logout-link")).Click();
         }
     }
 }

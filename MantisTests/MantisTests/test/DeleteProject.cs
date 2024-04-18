@@ -12,7 +12,7 @@ namespace MantisTests
 
         public void DeleteProjects()
         {
-            app.Login.AdminLogin();
+            app.Auth.AdminLogin();
             app.ProjectManager.CheckProject();
             List<ProjectData> oldList  = ProjectData.GetAllProject();
             ProjectData tobeRemoved = oldList[0];

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MantisTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d12dc5d7d3ecc63734026491749f3add1cc239c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9819892d6023a37f564be41a3407c8ce5e31ef5")]
 [assembly: System.Reflection.AssemblyProductAttribute("MantisTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MantisTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

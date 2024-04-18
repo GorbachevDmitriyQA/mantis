@@ -63,8 +63,10 @@ namespace MantisTests
 
         public void OpenLoginPage()
         {
-
-            manager.Driver.Url = "http://localhost:8080/mantisbt-1.3.20/login_page.php";
+            if (driver.Url != manager.baseURL + "/login_page.php")
+            {
+                manager.Driver.Url = manager.baseURL + "/login_page.php";
+            }
         }
     }
 }

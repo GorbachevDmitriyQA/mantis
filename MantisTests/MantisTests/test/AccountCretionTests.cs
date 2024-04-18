@@ -29,35 +29,32 @@ namespace MantisTests
         {
             AccountData account = new AccountData()
             {
-                Name = "DmitriyDmitriy",
-                Password = "DmitriyDmitriy",
-                Email = "DmitriyDmitriy@localhost.localdomain"
+                Name = "Dimchansky",
+                Password = "Dimchansky",
+                Email = "Dimchansky@localhost.localdomain"
             };
-
+            List<AccountData> accounts = app.Admin.GetAllAccounts();
+            AccountData existingAccount = accounts.Find(x => x.Name == account.Name);
+            if (existingAccount != null)
+            {
+                app.Admin.DeleteAccount(existingAccount);
+            }
+            List<AccountData> oldList = app.Admin.GetAllAccounts();
             app.James.DeleteAccount(account);
             app.James.AddAccount(account);
             app.Registration.Register(account);
-        }
-
-        [Test]
-        public void Login()
-        {
-            AccountData account = new AccountData()
-            {
-                Name = "DmitriyDmitriy",
-                Password = "DmitriyDmitriy",
-                Email = "DmitriyDmitriy@localhost.localdomain"
-            };
-
-            app.Login.AccountLogin(account);
+            List<AccountData> newList = app.Admin.GetAllAccounts();
+            Assert.AreEqual(oldList.Count + 1, newList.Count);
 
         }
 
-            //[TearDown]
 
-            //public void RestoreConfig()
-            //{
-            //    app.Ftp.RestoreFile("/config_inc.php");
-            //}
-        }
+
+        //[TearDown]
+
+        //public void RestoreConfig()
+        //{
+        //    app.Ftp.RestoreFile("/config_inc.php");
+        //}
+    }
 }

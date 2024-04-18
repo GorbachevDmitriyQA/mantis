@@ -26,14 +26,15 @@ namespace MantisTests
             options.BinaryLocation = @"c:\program files (x86)\google\chrome\application\chrome.exe";
             options.AddArgument("start-maximized");
             driver = new ChromeDriver(options);
-            baseURL = "http://localhost:8080/mantisbt-1.3.20/login_page.php";
+            baseURL = "http://localhost:8080/mantisbt-1.3.20";
             Registration = new RegistrationHelper(this);
             Ftp = new FtpHelper(this);
             James = new JamesHelper(this);
             Mail = new MailHelper(this);
-            Login = new LoginHelper(this);
+            Auth = new AuthHelper(this);
             ManageMenuNavigator = new ManagmentMenuHelper(this);
             ProjectManager = new ProjectManagmentHelper(this);
+            Admin = new AdminHelper(this);
         }
         public IWebDriver Driver
         {
@@ -44,9 +45,10 @@ namespace MantisTests
         public FtpHelper Ftp { get;  set; }
         public JamesHelper James { get; set; }
         public MailHelper Mail { get;  set; }
-        public LoginHelper Login { get; set; }
+        public AuthHelper Auth { get; set; }
         public ManagmentMenuHelper ManageMenuNavigator { get; set; }
         public ProjectManagmentHelper ProjectManager { get; set; }
+        public AdminHelper Admin { get; set; }
     }
 
 }
