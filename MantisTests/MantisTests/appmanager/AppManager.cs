@@ -35,6 +35,7 @@ namespace MantisTests
             ManageMenuNavigator = new ManagmentMenuHelper(this);
             ProjectManager = new ProjectManagmentHelper(this);
             Admin = new AdminHelper(this);
+            API = new APIHepler(this);
         }
         public IWebDriver Driver
         {
@@ -49,6 +50,7 @@ namespace MantisTests
         public ManagmentMenuHelper ManageMenuNavigator { get; set; }
         public ProjectManagmentHelper ProjectManager { get; set; }
         public AdminHelper Admin { get; set; }
+        public APIHepler API { get; set; }
     }
 
 }

@@ -44,7 +44,7 @@ namespace MantisTests
             driver.FindElement(By.CssSelector("input[class='button']")).Click();
         }
 
-        public void OpenProject(int id)
+        public void OpenProject(string id)
         {
             driver.FindElement(By.XPath("//a[@href='manage_proj_edit_page.php?project_id="+id+"']")).Click();
         }

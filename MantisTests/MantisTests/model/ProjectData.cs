@@ -19,7 +19,7 @@ namespace MantisTests
         public string Description { get; set; }
 
         [Column(Name="id")]
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         public int CompareTo(ProjectData other)
         {
