@@ -30,5 +30,17 @@ namespace MantisTests
             };
             client.mc_issue_add(issueRequest);
         }
+
+        public List<ProjectData> GetProjectsList(AccountData account)
+        {
+            Mantis.MantisConnectPortTypeClient client = new Mantis.MantisConnectPortTypeClient();
+            Mantis.mc_projects_get_user_accessibleRequest user = new Mantis.mc_projects_get_user_accessibleRequest()
+            {
+                username = account.Name,
+                password = account.Password
+            };
+            Mantis.mc_projects_get_user_accessibleResponse list = client.mc_projects_get_user_accessible(user);
+            return null;
+        }
     }
 }

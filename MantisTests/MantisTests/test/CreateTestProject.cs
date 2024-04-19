@@ -19,9 +19,16 @@ namespace MantisTests
                 Description = "This projcet for C# tests"
             };
 
+            AccountData account = new AccountData()
+            {
+                Name = "administrator",
+                Password = "qwe"
+            };
+
             app.Auth.AdminLogin();
             app.ManageMenuNavigator.ProjectMenu();
-            List<ProjectData> oldProject = ProjectData.GetAllProject();
+            List<ProjectData> oldProject = app.API.GetProjectsList(account);
+            //List<ProjectData> oldProject = ProjectData.GetAllProject();
             app.ProjectManager.CreateProject(project);
             List<ProjectData> newProject = ProjectData.GetAllProject();
             Assert.AreEqual(oldProject.Count + 1, newProject.Count);
