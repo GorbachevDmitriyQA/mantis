@@ -27,10 +27,11 @@ namespace MantisTests
 
             app.Auth.AdminLogin();
             app.ManageMenuNavigator.ProjectMenu();
-            List<ProjectData> oldProject = app.API.GetProjectsList(account);
+            List<Mantis.ProjectData> oldProject = app.API.GetProjectsList(account);
             //List<ProjectData> oldProject = ProjectData.GetAllProject();
             app.ProjectManager.CreateProject(project);
-            List<ProjectData> newProject = ProjectData.GetAllProject();
+            //List<ProjectData> newProject = ProjectData.GetAllProject();
+            List<Mantis.ProjectData> newProject = app.API.GetProjectsList(account);
             Assert.AreEqual(oldProject.Count + 1, newProject.Count);
         }
     }

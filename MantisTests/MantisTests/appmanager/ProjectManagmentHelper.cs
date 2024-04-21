@@ -51,18 +51,36 @@ namespace MantisTests
 
         public void CheckProject()
         {
+            //Реализация через веб сервис 
             List<ProjectData> project = ProjectData.GetAllProject();
             if (project.Count == 0)
             {
-                ProjectData testProject = new ProjectData()
+                AccountData accountData = new AccountData()
                 {
-                    Name = "superSitu",
-                    Description = "This project has benn create to autoprocedure"
+                    Name = "administrator",
+                    Password = "qwe"
                 };
-                manager.ManageMenuNavigator.ProjectMenu();
-                manager.ProjectManager.CreateProject(testProject);
+                ProjectData projectData = new ProjectData()
+                {
+                    Name = "AutoProject",
+                    Description = "This auto project"
+                };
+                manager.API.CreateProject(accountData, projectData);
             }
             else return;
+            
+            // Реализация создания через UI
+            //if (project.Count == 0)
+            //{
+            //    ProjectData testProject = new ProjectData()
+            //    {
+            //        Name = "superSitu",
+            //        Description = "This project has benn create to autoprocedure"
+            //    };
+            //    manager.ManageMenuNavigator.ProjectMenu();
+            //    manager.ProjectManager.CreateProject(testProject);
+            //}
+            //else return;
         }
     }
 }
